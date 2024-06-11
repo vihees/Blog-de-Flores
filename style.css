@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bad+Script&display=swap');
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(195, 155, 211);
+  }
+  .header img {
+    width: 40px;
+  }
+  .header ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 20px 5px 20px;
+  }
+  
+  .header li {
+    list-style: none;
+    font-size: 15px;
+    margin: 0px 15px;
+    font-family:"Abel", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(84, 29, 79);
+  }
+  
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.presentacion h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 35px;
+    color: rgb(84, 29, 79);
+
+}
+
+.presentacion p {
+    width: 70%;
+    font-size: 20px;
+    padding: 1px;
+    font-family: "Abel", sans-serif;
+    color: rgb(118, 61, 119);
+    text-align: justify
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 50px 50px 50px 50px;
+    background-color:  rgb(245, 238, 251);
+} 
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.caja h1{
+    font-size: 35px;
+    color: rgb(84, 29, 79);
+    font-family: "Abel", sans-serif;
+}
+.caja p{
+    font-size: 15px;
+    font-family: "Abel", sans-serif;
+    color: rgb(118, 61, 119);
+}
+
+#CONTACTO {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#CONTACTO iframe {
+    padding:10px;
+    margin: 60px; 
+    
+}
+
+.blog {
+  font-size: 21px;
+  color:  rgb(118, 61, 119);
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  background-color: rgb(245, 238, 251);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  
+  .secciones {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+  }
+  .secciones h1 {
+    font-size: 21px;
+    color:  rgb(118, 61, 119);
+    font-family: "Abel", sans-serif;
+    text-align: center;
+  }
+  .secciones p {
+    font-size: 18px;
+    font-family: "Abel", sans-serif;
+    text-align: justify;
+  }
+
+  .secciones img {
+    border-radius: 10%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    background-color: rgb(3, 79, 12);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(195, 155, 211);
+    height: 100px;
+  }
+  
+  .btn-primary {
+    border: solid 1px hsl(295, 27%, 45%);
+    background-color: hsl(311, 23%, 36%);
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px hsl(295, 27%, 45%);
+    background-color: hsl(311, 23%, 36%);
+  }
+  
